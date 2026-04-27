@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Umami Fest – Festival de Sushi de Vanguardia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;800&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">SASHI <span>&</span>KENT</div>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="#events">Catas</a></li>
+        <li><a href="#chefs">Chefs</a></li>
+        <li><a href="#about">Festival</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" id="hamburger" aria-label="Menú" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <img class="hero-img" src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=1600&q=80"
+        alt="Sushi de vanguardia" />
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <span class="hero-tag">Tokyo · Osaka · Nueva York — 12–14 Sep 2025</span>
+        <h1 class="hero-title">Sabores de<br><em>Vanguardia</em></h1>
+        <p class="hero-sub">El festival internacional de sushi de autor que reúne a los maestros itamae más innovadores
+          en una experiencia gastronómica sin precedentes.</p>
+        <div class="hero-cta">
+          <a class="btn-primary" href="#events">Reservar Entrada</a>
+          <a class="btn-outline" href="#about">Conocer el Festival</a>
+        </div>
+      </div>
+      <div class="hero-scroll">Descubre</div>
+    </section>
+
+    <!-- HORARIOS -->
+    <section class="events" id="events">
+      <div class="events-header fade-up">
+        <p class="section-label">Programa Oficial</p>
+        <h2 class="section-title">Horario de Catas</h2>
+        <div class="section-line"></div>
+        <p style="color:var(--text-muted); font-size:.92rem;">Tres días de experiencias exclusivas. Cada sesión está
+          limitada a 30 comensales para garantizar la máxima atención y calidad.</p>
+      </div>
+      <div class="events-table-wrap fade-up-2">
+        <table>
+          <thead>
+            <tr>
+              <th>Hora</th>
+              <th>Experiencia</th>
+              <th>Chef</th>
+              <th>Estilo</th>
+              <th>Disponibilidad</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>14:00</td>
+              <td>Omakase Clásico</td>
+              <td>Chef Hiro Tanaka</td>
+              <td><span class="badge badge-white">Edo-mae</span></td>
+              <td><span class="badge badge-gold">Limitado</span></td>
+              <td><a class="btn-comprar" href="#">Comprar</a></td>
+            </tr>
+            <tr>
+              <td>15:30</td>
+              <td>Nikkei Fusion Tasting</td>
+              <td>Chef Ana López</td>
+              <td><span class="badge badge-white">Nikkei</span></td>
+              <td><span class="badge badge-red">Agotado</span></td>
+              <td><a class="btn-comprar" href="#" style="opacity:.4;pointer-events:none;">Comprar</a></td>
+            </tr>
+            <tr>
+              <td>17:00</td>
+              <td>Taller de Nigiri</td>
+              <td>Chef Kenji Mori</td>
+              <td><span class="badge badge-white">Hands-on</span></td>
+              <td><span class="badge badge-gold">Disponible</span></td>
+              <td><a class="btn-comprar" href="#">Comprar</a></td>
+            </tr>
+            <tr>
+              <td>18:30</td>
+              <td>Sake & Temaki Pairing</td>
+              <td>Chef Ana López</td>
+              <td><span class="badge badge-white">Maridaje</span></td>
+              <td><span class="badge badge-gold">Disponible</span></td>
+              <td><a class="btn-comprar" href="#">Comprar</a></td>
+            </tr>
+            <tr>
+              <td>20:00</td>
+              <td>Gran Cena Omakase VIP</td>
+              <td>Chef Hiro Tanaka</td>
+              <td><span class="badge badge-white">Premium</span></td>
+              <td><span class="badge badge-red">Solo 8 plazas</span></td>
+              <td><a class="btn-comprar" href="#">Comprar</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" style="padding: 6rem 4rem;">
+      <div class="about">
+        <div class="about-visual fade-up">
+          <img class="about-img-main" src="https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80"
+            alt="Preparación de sushi" />
+          <img class="about-img-accent" src="https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?w=400&q=80"
+            alt="Detalle sushi" />
+          <div class="about-badge-float">3<br>Días</div>
+        </div>
+        <div class="fade-up-2">
+          <p class="section-label">Sobre el Festival</p>
+          <h2 class="section-title">Donde la tradición encuentra el futuro</h2>
+          <div class="section-line"></div>
+          <p style="color:var(--cream); font-size:.95rem; margin-bottom:1.5rem;">Umami Fest nació en 2019 con la misión
+            de llevar el sushi de alta cocina más allá de las fronteras de Japón. Reunimos a los maestros
+            <em>itamae</em> más destacados del mundo para celebrar el arte milenario del sushi en su expresión más
+            contemporánea.</p>
+          <div class="philosophy">
+            <p style="font-size:.82rem; letter-spacing:.15em; text-transform:uppercase; color:var(--gold);">Nuestra
+              Filosofía</p>
+            <ul>
+              <li>Sostenibilidad: Pesca responsable y proveedores certificados</li>
+              <li>Innovación: Técnicas de vanguardia con ingredientes locales</li>
+              <li>Tradición: Respeto profundo por el arte itamae centenario</li>
+              <li>Comunidad: Creamos puentes entre culturas gastronómicas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHEFS -->
+    <section class="chefs" id="chefs">
+      <p class="section-label fade-up">Maestros Invitados</p>
+      <h2 class="section-title fade-up-2">Nuestros Chefs</h2>
+      <div class="section-line fade-up-3"></div>
+      <div class="chefs-grid">
+        <article class="chef-card fade-up">
+          <img class="chef-card-img" src="https://images.unsplash.com/photo-1595257841317-6d1fee5ac8a6?w=600&q=80"
+            alt="Chef Hiro Tanaka" />
+          <div class="chef-info">
+            <h3 class="chef-name">Hiro Tanaka</h3>
+            <p class="chef-origin">Tokyo, Japón · 3 Estrellas Michelin</p>
+            <span class="chef-specialty">Especialidad: Edomae Omakase</span>
+          </div>
+        </article>
+        <article class="chef-card fade-up-2">
+          <img class="chef-card-img" src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600&q=80"
+            alt="Chef Ana López" />
+          <div class="chef-info">
+            <h3 class="chef-name">Ana López</h3>
+            <p class="chef-origin">Lima, Perú · Nikkei Pioneer</p>
+            <span class="chef-specialty">Especialidad: Fusión Nikkei</span>
+          </div>
+        </article>
+        <article class="chef-card fade-up-3">
+          <img class="chef-card-img" src="https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=600&q=80"
+            alt="Chef Kenji Mori" />
+          <div class="chef-info">
+            <h3 class="chef-name">Kenji Mori</h3>
+            <p class="chef-origin">Osaka, Japón · 2 Estrellas Michelin</p>
+            <span class="chef-specialty">Especialidad: Temaki & Handroll</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- MULTIMEDIA -->
+    <section class="multimedia" id="gallery">
+      <p class="section-label fade-up">Galería Visual</p>
+      <h2 class="section-title fade-up-2">Multimedia</h2>
+      <div class="section-line fade-up-3"></div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=900&q=80"
+            alt="Omakase" />
+          <div class="gallery-label">Omakase Experience</div>
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80"
+            alt="Nigiri" />
+          <div class="gallery-label">Nigiri de Atún</div>
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?w=600&q=80"
+            alt="Sashimi" />
+          <div class="gallery-label">Sashimi Premium</div>
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1553621042-f6e147245754?w=900&q=80"
+            alt="Preparación" />
+          <div class="gallery-label">Arte Itamae</div>
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=600&q=80"
+            alt="Maki" />
+          <div class="gallery-label">Maki de Temporada</div>
+        </div>
+      </div>
+      <div class="video-row">
+        <div class="video-thumb">
+          <img src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=800&q=60" alt="Video 1" />
+          <div class="play-btn"></div>
+          <span class="video-caption">El arte del corte – Ep. 01</span>
+        </div>
+        <div class="video-thumb">
+          <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=60" alt="Video 2" />
+          <div class="play-btn"></div>
+          <span class="video-caption">Fusión Nikkei con Chef Ana – Ep. 02</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SPONSORS -->
+  <div class="sponsors">
+    <div class="sponsors-inner">
+      <span class="sponsors-label">Patrocinadores</span>
+      <ul class="sponsors-list">
+        <li>Nishiki Market</li>
+        <li>Sake Imports Co.</li>
+        <li>Tsukiji Fresh</li>
+        <li>Wasabi Premium</li>
+        <li>Kikkoman Pro</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer id="contact">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo">UMAMI<span>·</span>FEST</span>
+        <p>El festival internacional de sushi de autor. Tres días de experiencias culinarias que transformarán tu
+          percepción del sushi.</p>
+        <div class="social-links">
+          <a class="social-link" href="#" aria-label="Instagram">IG</a>
+          <a class="social-link" href="#" aria-label="TikTok">TT</a>
+          <a class="social-link" href="#" aria-label="YouTube">YT</a>
+          <a class="social-link" href="#" aria-label="X/Twitter">X</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Redes Sociales</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">X / Twitter</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#events">Catas</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#about">Festival</a></li>
+          <li><a href="#gallery">Galería</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="mailto:hola@umamifest.com">hola@umamifest.com</a></li>
+          <li><a href="tel:+573001234567">+57 300 123 4567</a></li>
+          <li><a href="#">Barranquilla, Colombia</a></li>
+          <li><a href="#">Prensa & Medios</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Umami Fest – Todos los derechos reservados.</span>
+      <span>Diseñado con 🍣 HTML5 + CSS3</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
